@@ -3,13 +3,48 @@ body {
   font-weight: 500;
 }
 
-#blue .box {
-  padding: 30px 0;
+#blue {
+  padding: 55px 0;
 }
 #blue .box .minibox {
-  border: 1px solid red;
-  width: 100px;
-  height: 100px;
+  border: 1px solid blue;
+  width: 80px;
+  height: 80px;
   background-color: #3616aa;
   display: inline-block;
+}
+#blue .box .minibox h1 {
+  font-weight: 400px;
+  font-size: 20px;
+  color: white;
+  margin: 25px;
+}
+#blue .box .minibox:hover {
+  width: 110px;
+  height: 110px;
+  transition: 2s;
+}
+#blue .box .demo {
+  background-color: rgba(52, 72, 159, 0.8745098039);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 40px;
+  left: 600px;
+}
+#blue .box .big {
+  background-color: rgba(52, 72, 159, 0.8745098039);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#blue .box .txt {
+  background-color: rgba(52, 72, 159, 0.8745098039);
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
 }/*# sourceMappingURL=style.css.map */
