@@ -3,9 +3,6 @@ body {
   font-weight: 500;
 }
 
-#blue {
-  padding: 55px 0;
-}
 #blue .box .minibox {
   border: 1px solid blue;
   width: 80px;
@@ -16,35 +13,23 @@ body {
 #blue .box .minibox h1 {
   font-weight: 400px;
   font-size: 20px;
-  color: white;
-  margin: 25px;
-}
-#blue .box .minibox:hover {
-  width: 110px;
-  height: 110px;
-  transition: 2s;
+  margin: 23px;
 }
 #blue .box .demo {
   background-color: rgba(52, 72, 159, 0.8745098039);
   width: 120px;
   height: 120px;
-  position: absolute;
-  top: 40px;
-  left: 600px;
+  transform: translate(100px, 60px);
 }
 #blue .box .big {
   background-color: rgba(52, 72, 159, 0.8745098039);
   width: 120px;
   height: 120px;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+  transform: translate(103px, 60px);
 }
 #blue .box .txt {
   background-color: rgba(52, 72, 159, 0.8745098039);
   width: 120px;
   height: 120px;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+  transform: translate(104px, 60px);
 }/*# sourceMappingURL=style.css.map */
