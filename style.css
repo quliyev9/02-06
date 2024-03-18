@@ -30,42 +30,174 @@ body {
 }
 #lightblue .box .demo {
   background-color: rgba(15, 30, 96, 0.8862745098);
-  transform: translate(-240px, -40px);
-  width: 80px;
-  height: 80px;
-  transition: 2s;
+  transform: translate(-248px, -39px);
+  width: 70px;
+  height: 70px;
+  transition: 1s;
 }
 #lightblue .box .demo:hover {
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 83px;
 }
 #lightblue .box .demo h1 {
   color: white;
   font-weight: 400px;
   font-size: 20px;
-  margin: 23px;
+  margin: 27px;
 }
 #lightblue .box .big {
   background-color: rgba(15, 30, 96, 0.8862745098);
-  transform: translate(0px, -40px);
-  width: 80px;
-  height: 80px;
+  transform: translate(0px, -41px);
+  width: 70px;
+  height: 70px;
+  transition: 1s;
+}
+#lightblue .box .big:hover {
+  width: 85px;
+  height: 83px;
 }
 #lightblue .box .big h1 {
   font-weight: 400px;
   font-size: 20px;
-  margin: 23px;
+  margin: 27px;
   color: white;
 }
 #lightblue .box .txt {
   background-color: rgba(15, 30, 96, 0.8862745098);
-  transform: translate(245px, -40px);
-  width: 80px;
-  height: 80px;
+  transform: translate(254px, -39px);
+  width: 70px;
+  height: 70px;
+  transition: 1s;
+}
+#lightblue .box .txt:hover {
+  width: 85px;
+  height: 83px;
 }
 #lightblue .box .txt h1 {
   font-weight: 400px;
   font-size: 20px;
-  margin: 23px;
+  margin: 27px;
   color: white;
+}
+
+#demo .box .demo {
+  width: 190px;
+  height: 90px;
+  border: 5px solid rgba(118, 35, 113, 0.9215686275);
+  display: inline-block;
+  background-color: rgba(118, 35, 113, 0.9215686275);
+  transform: translate(-108px, 59px);
+  transition: 2s;
+}
+#demo .box .demo:hover {
+  background-color: #44154e;
+}
+#demo .box .demo h1 {
+  color: white;
+  font-weight: 300px;
+  font-size: 16px;
+  margin: 13px;
+  display: flex;
+  justify-content: center;
+}
+#demo .box .big {
+  width: 190px;
+  height: 90px;
+  border: 5px solid rgba(118, 35, 113, 0.9215686275);
+  display: inline-block;
+  background-color: rgba(118, 35, 113, 0.9215686275);
+  transform: translate(148px, 59px);
+  transition: 2s;
+}
+#demo .box .big:hover {
+  background-color: #44154e;
+}
+#demo .box .big h1 {
+  color: white;
+  font-weight: 300px;
+  font-size: 16px;
+  margin: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+#brown .box .demo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(111, 83, 61, 0.9411764706);
+  display: inline-block;
+  transform: translate(-250px, 179px);
+  transition: 2s;
+}
+#brown .box .demo:hover {
+  border-radius: 18px;
+}
+#brown .box .demo h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+#brown .box .big {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(111, 83, 61, 0.9411764706);
+  display: inline-block;
+  transform: translate(-100px, 179px);
+  transition: 2s;
+}
+#brown .box .big:hover {
+  border-radius: 18px;
+}
+#brown .box .big h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+#brown .box .txt {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(111, 83, 61, 0.9411764706);
+  display: inline-block;
+  transform: translate(50px, 179px);
+  transition: 2s;
+}
+#brown .box .txt:hover {
+  border-radius: 18px;
+}
+#brown .box .txt h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+#brown .box .red {
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  background-color: rgba(111, 83, 61, 0.9411764706);
+  display: inline-block;
+  transform: translate(200px, 179px);
+  transition: 2s;
+}
+#brown .box .red:hover {
+  border-radius: 18px;
+}
+#brown .box .red h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 45px;
 }/*# sourceMappingURL=style.css.map */
