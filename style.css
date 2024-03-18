@@ -24,6 +24,14 @@ body {
   height: 120px;
   transform: translate(204px, 60px);
 }
+@media screen and (min-width: 800px) {
+  #blue .box .minibox {
+    transform: translate(4px, 20px);
+    width: 140px;
+    height: 140px;
+    margin: 20px 20px 0 20px;
+  }
+}
 
 #lightblue .box .minibox {
   display: inline-block;
@@ -79,6 +87,12 @@ body {
   margin: 27px;
   color: white;
 }
+@media screen and (min-width: 800px) {
+  #lightblue .box .minibox {
+    transform: translate(5px, -140px);
+    margin: 55px 55px 0px 55px;
+  }
+}
 
 #demo .box .demo {
   width: 190px;
@@ -119,6 +133,17 @@ body {
   margin: 13px;
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 800px) {
+  #demo .box .minibox {
+    background-color: rgba(79, 106, 189, 0.9647058824);
+    width: 90px;
+    height: 48px;
+    transition: 2s;
+    border: 5px solid rgba(79, 106, 189, 0.9647058824);
+    transform: translate(0px, -62px);
+    margin: 30px 60px 0 60px;
+  }
 }
 
 #brown .box .demo {
@@ -200,4 +225,22 @@ body {
   display: flex;
   justify-content: center;
   margin: 45px;
+}
+@media screen and (min-width: 800px) {
+  #brown .box .minibox {
+    background-color: rgba(140, 209, 111, 0.9647058824);
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+    border: 1px solid rgba(140, 209, 111, 0.9647058824);
+    border-radius: 40px;
+    transform: translate(0px, 90px);
+    margin: 0px 60px 0px 60px;
+  }
+  #brown .box .minibox h1 {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */
