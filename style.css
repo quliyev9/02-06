@@ -33,6 +33,11 @@ body {
   transform: translate(-240px, -40px);
   width: 80px;
   height: 80px;
+  transition: 2s;
+}
+#lightblue .box .demo:hover {
+  width: 90px;
+  height: 90px;
 }
 #lightblue .box .demo h1 {
   color: white;
